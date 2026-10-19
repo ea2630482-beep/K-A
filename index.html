@@ -8,7 +8,9 @@
 <style>
 body{margin:0;text-align:center;font-family:Arial;background:#fffaf7;color:#401d2a}
 header{background:#401d2a;color:white;padding:25px}
-button{background:#25D366;color:white;padding:14px;border:0;border-radius:8px}
+input,button{padding:13px;margin:8px;border-radius:8px}
+input{width:80%;max-width:320px;border:1px solid #ccc}
+button{background:#401d2a;color:white;border:0}
 </style>
 </head>
 <body>
@@ -17,9 +19,23 @@ button{background:#25D366;color:white;padding:14px;border:0;border-radius:8px}
 <p>Premium Pakistani Ladies Suits</p>
 </header>
 <h2>Winter Collection</h2>
-<p>WhatsApp: 971 54 168 9726</p>
-<a href="https://wa.me/971541689726">
-Order on WhatsApp
-</a>
+<h3>Place Your Order</h3>
+
+<form action="https://formsubmit.co/ea2630482@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New K$A Clothing Order">
+<input type="hidden" name="_captcha" value="false">
+
+<input name="Customer Name" placeholder="Your Name" required>
+<br>
+<input name="Phone Number" placeholder="Phone Number" required>
+<br>
+<input name="Suit Name" placeholder="Suit Name" required>
+<br>
+<input name="Quantity" type="number" min="1" value="1" required>
+<br>
+<input name="Delivery Address" placeholder="Delivery Address" required>
+<br>
+<button type="submit">Place Order</button>
+</form>
 </body>
 </html>
