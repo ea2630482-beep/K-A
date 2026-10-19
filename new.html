@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K$A Clothing</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#fffaf7;color:#401d2a}
+header,footer{background:#401d2a;color:white;text-align:center;padding:24px}
+.hero{text-align:center;padding:35px 15px;background:#f4e5e8}
+h2{text-align:center}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;padding:15px}
+.card{background:white;border-radius:12px;padding:12px;text-align:center;box-shadow:0 2px 8px #ddd}
+.card img{width:100%;height:230px;object-fit:cover;border-radius:8px}
+button,.btn{display:inline-block;background:#401d2a;color:white;padding:13px 18px;border:0;border-radius:7px;text-decoration:none;margin:6px;cursor:pointer}
+form{text-align:center;padding:20px}
+input,select{width:90%;max-width:350px;padding:12px;margin:7px;border:1px solid #ccc;border-radius:7px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>K$A CLOTHING</h1>
+<p>Premium Pakistani Ladies Suits</p>
+</header>
+
+<section class="hero">
+<h2>Timeless Pakistani Elegance</h2>
+<p>Discover our Ladies Suits & Winter Collection</p>
+<a class="btn" href="#collection">Shop Collection</a>
+</section>
+
+<h2 id="collection">Our Collection</h2>
+<div class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" alt="Fashion suit">
+<h3>Elegant Suit</h3>
+<p>AED 99</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80" alt="Ladies collection">
+<h3>Premium Suit</h3>
+<p>AED 149</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583391733956-6c78276477e3?auto=format&fit=crop&w=600&q=80" alt="Clothing collection">
+<h3>Winter Suit</h3>
+<p>AED 129</p>
+</div>
+</div>
+
+<h2>Place Your Order</h2>
+<form action="https://formsubmit.co/ea2630482@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New KSA Clothing Order">
+<input type="hidden" name="_captcha" value="false">
+
+<input name="Customer Name" placeholder="Your Name" required><br>
+<input type="tel" name="Phone Number" placeholder="Phone Number" required><br>
+
+<select name="Suit" required>
+<option value="">Select Suit</option>
+<option>Elegant Suit - AED 99</option>
+<option>Premium Suit - AED 149</option>
+<option>Winter Suit - AED 129</option>
+</select><br>
+
+<input type="number" name="Quantity" placeholder="Quantity" min="1" value="1" required><br>
+<input name="Delivery Address" placeholder="Delivery Address" required><br>
+
+<button type="submit">Order by Email</button>
+</form>
+
+<div style="text-align:center;padding:15px">
+<a class="btn" href="https://wa.me/971541689726?text=Hello%2C%20I%20want%20to%20order%20from%20KSA%20Clothing">Order on WhatsApp</a>
+</div>
+
+<footer>
+<h3>K$A Clothing</h3>
+<p>Premium Pakistani Ladies Suits</p>
+<p>UAE Delivery</p>
+<p>ea2630482@gmail.com</p>
+</footer>
+
+</body>
+  </html>
+  
